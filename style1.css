@@ -1,0 +1,189 @@
+body{
+background-image: url("img/backim.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/****************/
+/* PICTURE ZONE */
+/****************/
+
+
+[class*="pic-"]{
+    float:left;
+    width:40%;
+    height:1700px;
+    background-image: url("img/Me.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    border-radius: 10px;
+    
+}
+
+.pic-1{
+    background-size: 42.5% ;
+}
+.pic-2{
+    background-size: 40%;
+}
+.pic-3{
+    background-size: 38%;
+}
+.pic-4{
+    background-size: 36.5%;
+}
+.pic-5{
+    background-size: 35%;
+}
+.pic-6{
+    background-size: 33%;
+}
+.pic-7{
+    background-size: 31.5%;
+}
+.pic-8{
+    background-size: 30%;
+}
+.pic-9{
+    background-size: 27%;
+}
+
+
+/**************/
+/*TEXTING ZONE*/
+/**************/
+.text{
+width: 60%;
+height:790px;
+float:right;
+}
+
+/*************/
+/**NAME ZONE**/
+/*************/
+
+* {
+    box-sizing: border-box;
+}
+
+/*[class*="name-"]*/
+.name-1{
+    border-radius: 30%;
+    background: radial-gradient(whitesmoke, darkorange);
+    padding: 20px;
+    margin: 30px 30px 10px 30px;
+    box-shadow: 2px 2px 5px 0 rgb(255,255,255);
+    text-align: center; 
+}
+.name-1{
+   font: bold 185%/95% Bernard MT, serif;
+ /*   height: 20%; */
+}
+
+
+/************/
+/**ABOUT ME**/
+/************/
+
+.text-info{
+    font-size:10px;
+    padding:40px;
+}
+.textbox{
+  /*  border: none;
+    border-radius: 10%;
+    padding: 100px 100px;
+    cursor: pointer;*/
+    margin: auto;
+    background: rgba(255, 165, 0, 0);
+    display:block;
+    position:relative;
+    width: 50%;
+    }
+.eduimg{
+    display: block;
+    width:100%;
+    height: auto;
+    
+}
+.education{
+    position: absolute;
+  top: 0;
+    border-radius: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ /* height: 100%;
+  width: 100%;*/
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 165, 0, 0.8);
+}
+.textbox:hover .education{
+    opacity:1;
+}
+.edutext{
+    color: white;
+    font: bold 70%, serif; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.projimg{
+    display: block;
+    width:100%;
+    height: auto; 
+}
+.projects{
+    position: absolute;
+    top: 0;
+    border-radius: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   /* height: 100%;
+    width: 100%;*/
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 165, 0, 0.8);
+}
+.projtext{
+    color: white;
+     font: bold 100%, serif; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textbox:hover .projects{
+    opacity:1;
+}
+.conimg{
+    display: block;
+    width:100%;
+    height: auto;  
+}
+.contacts{position: absolute;
+    top: 0;
+    border-radius: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ /*   height: 100%;
+    width: 100%;*/
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 165, 0, 0.8);
+}
+.context{color: white;
+     font: bold 100%, serif; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textbox:hover .contacts{
+    opacity:1;
+}
